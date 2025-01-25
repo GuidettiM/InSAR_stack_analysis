@@ -1,3 +1,6 @@
+# This R program calculates and plots the Contrast based on the Theory of Evidence of Weights (WOE) by Bonham-Carter (1994), applied to the slope of several polygons in a large area.
+# You only need a shapefile with your desired polygons and a slope raster of the area (be sure they both have the same cohordinate system)
+
 # Load necessary libraries
 library(raster)
 library(sf)
